@@ -1,14 +1,15 @@
 from flask import render_template, flash, redirect, send_file, make_response, url_for, Response
 from app import app
-from app import forms, functions
+#from app import forms, functions
+from app import functions
 
 #Pandas and Matplotlib
-import pandas as pd
-from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
-from matplotlib.figure import Figure
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
+#import pandas as pd
+#from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
+#from matplotlib.figure import Figure
+#import matplotlib
+#matplotlib.use('Agg')
+#import matplotlib.pyplot as plt
 
 #other requirements
 import io
